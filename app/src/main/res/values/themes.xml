@@ -1,9 +1,25 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.DermaOne" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.DermaOne" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/tertiary</item>
+<!--        <item name="colorPrimaryVariant">@color/white</item>-->
+<!--        <item name="colorOnPrimary">@color/white</item>-->
+
+<!--        <item name="colorSecondary">@color/white</item>-->
+<!--        <item name="colorSecondaryVariant">@color/white</item>-->
+        <item name="colorOnSecondary">@color/white</item>
+
+<!--        <item name="colorTertiary">@color/tertiary</item>-->
+        <item name="colorOnTertiaryFixedVariant">@color/white</item>
+        <item name="colorOnTertiary">@color/white</item>
     </style>
 
     <style name="Theme.DermaOne" parent="Base.Theme.DermaOne" />
+
+    <style name="fab_style" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
 </resources>

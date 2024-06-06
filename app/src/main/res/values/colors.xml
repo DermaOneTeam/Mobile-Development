@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="grey">#80000000</color>
     <color name="black">#FF000000</color>
+    <color name="grey">#80000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="white_pale">#C1C1C1</color>
-    <color name="primary">#010F29</color>
-    <color name="primary_lighter">#112754</color>
-    <color name="secondary">#7B1A50</color>
-    <color name="secondary_lighter">#A16A8F</color>
+    <color name="primary">#2F496E</color>2988BC
+<!--    <color name="primary_lighter">#112754</color>-->
+    <color name="secondary">#2988BC</color>
+<!--    <color name="secondary_lighter">#A16A8F</color>-->
+    <color name="tertiary">#ED8C72</color>
 </resources>

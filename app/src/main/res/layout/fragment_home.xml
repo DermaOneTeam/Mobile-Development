@@ -6,64 +6,74 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".view.fragment.home.HomeFragment">
 
-    <View
-        android:id="@+id/view"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:background="@color/primary" />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-        <TextView
-            android:id="@+id/tv_hello"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Hello Muhammad!"
-            android:textSize="30dp"
-            android:textColor="@color/white"
-            android:layout_marginTop="30dp"
-            android:layout_marginLeft="30dp"/>
-        <TextView
-            android:id="@+id/below_hello"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Scan your skin below for us to clasify!"
-            android:textSize="24dp"
-            android:textColor="@color/secondary_lighter"
-            android:paddingHorizontal="30dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="70dp"/>
+
+        <ImageView
+            android:id="@+id/iv_profile_picture"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:src="@drawable/placeholder_person_24"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="20dp"
+            app:cardBackgroundColor="@color/primary"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_hello"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hello Muhammad!"
+                    android:textSize="30dp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="30dp"/>
+
+                <TextView
+                    android:id="@+id/below_hello"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Scan your skin below for us to clasify!"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    android:paddingHorizontal="30dp"
+                    android:layout_marginTop="20dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
         <TextView
             android:id="@+id/tv_history"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="History:"
+            android:text="Cases history:"
             android:textSize="17dp"
-            android:textColor="@color/primary"
+            android:textColor="@color/secondary"
             android:layout_marginLeft="15dp"
-            android:layout_marginBottom="20dp"/>
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"/>
+
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rv_history"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            tools:listitem="@layout/history_list"/>
-    </LinearLayout>
+            tools:listitem="@layout/history_list"
+            android:paddingBottom="80dp"/>
 
-    <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/add_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/baseline_add_24"
-            android:backgroundTint="@color/secondary_lighter"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginRight="30dp"
-            android:layout_marginBottom="30dp"/>
-    </RelativeLayout>
+    </LinearLayout>
 
 </FrameLayout>
