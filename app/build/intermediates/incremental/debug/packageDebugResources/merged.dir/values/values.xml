@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="grey">#80000000</color>
+    <color name="primary">#2F496E</color>
+    <color name="secondary">#2988BC</color>
+    <color name="tertiary">#ED8C72</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_pale">#C1C1C1</color>
+    <string name="app_name">DermaOne</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <style name="Base.Theme.DermaOne" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/tertiary</item>
+
+
+
+
+
+        <item name="colorOnSecondary">@color/white</item>
+
+
+        <item name="colorOnTertiaryFixedVariant">@color/white</item>
+        <item name="colorOnTertiary">@color/white</item>
+    </style>
+    <style name="Theme.DermaOne" parent="Base.Theme.DermaOne"/>
+    <style name="darkModeSwitch" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/primary</item>
+        <item name="colorSwitchThumbNormal">@color/white</item>
+        <item name="android:colorForeground">#99FFFFFF</item>
+    </style>
+    <style name="fab_style" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

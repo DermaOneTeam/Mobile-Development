@@ -1,0 +1,282 @@
+[
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.dermaone.app-main-38:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/layout_fragment_home.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/drawable_baseline_lock_24.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/drawable/baseline_lock_24.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/drawable_baseline_home_24.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/drawable/baseline_home_24.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/anim_rotate_close_anim.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/anim/rotate_close_anim.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/drawable_placeholder_person_24.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/drawable/placeholder_person_24.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/layout_fragment_article.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/layout/fragment_article.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/layout_article_list.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/layout/article_list.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/drawable_transparent_bg.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/drawable/transparent_bg.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/drawable_baseline_arrow_back_24.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/drawable/baseline_arrow_back_24.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/drawable_batman.jpg.flat",
+        "source": "com.example.dermaone.app-main-38:/drawable/batman.jpg"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/xml_network_security_config.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.dermaone.app-main-38:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.dermaone.app-main-38:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/drawable_cartoon.jpg.flat",
+        "source": "com.example.dermaone.app-main-38:/drawable/cartoon.jpg"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/drawable_forest.jpg.flat",
+        "source": "com.example.dermaone.app-main-38:/drawable/forest.jpg"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/menu_menu_bottom_navigation.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/menu/menu_bottom_navigation.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/layout_activity_splash_screen.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/layout_activity_about_us.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/layout/activity_about_us.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/layout_activity_profile.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/layout_activity_classification.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/layout/activity_classification.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/drawable_baseline_add_24.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/drawable/baseline_add_24.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.dermaone.app-main-38:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/layout_activity_login.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/drawable_baseline_password_24.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/drawable/baseline_password_24.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/drawable_baseline_edit_24.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/drawable/baseline_edit_24.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/drawable_shawshank.JPG.flat",
+        "source": "com.example.dermaone.app-main-38:/drawable/shawshank.JPG"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/drawable_baseline_scan_24.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/drawable/baseline_scan_24.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/drawable_ic_facebook.png.flat",
+        "source": "com.example.dermaone.app-main-38:/drawable/ic_facebook.png"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/drawable_logo.jpeg.flat",
+        "source": "com.example.dermaone.app-main-38:/drawable/logo.jpeg"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/drawable_baseline_dark_mode_24.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/drawable/baseline_dark_mode_24.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/layout_activity_detail_history.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/layout/activity_detail_history.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/layout_history_list.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/layout/history_list.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/layout_activity_detail_article.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/layout/activity_detail_article.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/anim_to_bottom_anim.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/anim/to_bottom_anim.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/drawable_baseline_camera_24.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/drawable/baseline_camera_24.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/layout_fragment_profile.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.dermaone.app-main-38:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/layout_activity_welcome.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/layout/activity_welcome.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/drawable_logo_no_bg.jpeg.flat",
+        "source": "com.example.dermaone.app-main-38:/drawable/logo_no_bg.jpeg"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/layout_activity_register.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/anim_from_bottom_anim.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/anim/from_bottom_anim.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.dermaone.app-main-38:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/drawable_baseline_settings_24.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/drawable/baseline_settings_24.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/layout_activity_detail_result.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/layout/activity_detail_result.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/layout_activity_forget_password.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/layout/activity_forget_password.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/drawable_baseline_delete_24.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/drawable/baseline_delete_24.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.dermaone.app-main-38:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/drawable_baseline_arrow_down_24.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/drawable/baseline_arrow_down_24.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/layout_activity_settings.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.dermaone.app-main-38:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.dermaone.app-main-38:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/drawable_baseline_article_24.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/drawable/baseline_article_24.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/layout_activity_change_password.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/layout/activity_change_password.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/anim_rotate_open_anim.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/anim/rotate_open_anim.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/layout_activity_edit_profile.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/layout/activity_edit_profile.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/drawable_baseline_about_us_24.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/drawable/baseline_about_us_24.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/layout_activity_main.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/drawable_top_bg_design.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/drawable/top_bg_design.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.dermaone.app-main-38:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/drawable_wave_design.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/drawable/wave_design.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/xml_backup_rules.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/drawable_spiderman.jpg.flat",
+        "source": "com.example.dermaone.app-main-38:/drawable/spiderman.jpg"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/drawable_baseline_galery_24.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/drawable/baseline_galery_24.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.dermaone.app-main-38:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.dermaone.app-merged_res-36:/drawable_ic_google.png.flat",
+        "source": "com.example.dermaone.app-main-38:/drawable/ic_google.png"
+    }
+]
