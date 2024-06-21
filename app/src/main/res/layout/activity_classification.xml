@@ -6,13 +6,74 @@
     android:layout_height="match_parent"
     tools:context=".view.classification.ClassificationActivity">
 
-    <ImageView
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:src="@drawable/baseline_arrow_back_24"
-        android:layout_margin="20dp"
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/primary"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent"/>
 
+    <TextView
+        android:id="@+id/tv_edit_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Classification"
+        android:textSize="24dp"
+        android:textColor="@color/tertiary"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="17dp"/>
+
+    <ImageView
+        android:id="@+id/iv_image_classification"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/ic_launcher_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/tv_prediction_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prediction Result:"
+        style="@style/text_color_opposite"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@id/iv_image_classification"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_description_classification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_prediction_result"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginVertical="10dp"
+        android:paddingHorizontal="30dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/swipe_to_detail"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Result details"
+        android:textSize="15dp"
+        android:textColor="@color/tertiary"
+        android:backgroundTint="@color/secondary"
+        android:drawableTop="@drawable/baseline_arrow_up_24"
+        android:drawableTint="@color/tertiary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:cornerRadius="50dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -14,11 +14,15 @@ class WelcomeActivity : AppCompatActivity() {
         binding = ActivityWelcomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.loginBtn.setOnClickListener {
-            startActivity(Intent(this, LoginActivity::class.java))
-        }
-        binding.registerBtn.setOnClickListener {
+        binding.getStartedBtn.setOnClickListener {
             startActivity(Intent(this, RegisterActivity::class.java))
         }
+
+//        binding.loginBtn.setOnClickListener {
+//            startActivity(Intent(this, LoginActivity::class.java))
+//        }
+//        binding.registerBtn.setOnClickListener {
+//            startActivity(Intent(this, RegisterActivity::class.java))
+//        }
     }
 }

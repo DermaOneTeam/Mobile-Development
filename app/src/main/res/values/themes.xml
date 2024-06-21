@@ -3,23 +3,51 @@
     <style name="Base.Theme.DermaOne" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <item name="colorPrimary">@color/tertiary</item>
-<!--        <item name="colorPrimaryVariant">@color/white</item>-->
-<!--        <item name="colorOnPrimary">@color/white</item>-->
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
 
-<!--        <item name="colorSecondary">@color/white</item>-->
-<!--        <item name="colorSecondaryVariant">@color/white</item>-->
+        <item name="colorSecondary">@color/grey</item>
+        <item name="colorSecondaryVariant">@color/white</item>
         <item name="colorOnSecondary">@color/white</item>
 
-<!--        <item name="colorTertiary">@color/tertiary</item>-->
+        <item name="colorTertiary">@color/tertiary</item>
         <item name="colorOnTertiaryFixedVariant">@color/white</item>
         <item name="colorOnTertiary">@color/white</item>
     </style>
 
     <style name="Theme.DermaOne" parent="Base.Theme.DermaOne" />
+    
+<!--    <style name="card_background"><item name="android:background">@color/white</item></style>-->
+    <style name="background"><item name="android:background">@color/white</item></style>
+    <style name="text_color"><item name="android:textColor">@color/white</item></style>
+    <style name="text_color_opposite"><item name="android:textColor">#121212</item></style>
+    <style name="button_theme_primary">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:backgroundTint">@color/primary</item>
+    </style>
+    <style name="button_theme_secondary">
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:backgroundTint">@color/white</item>
+    </style>
+    <style name="edit_text_theme">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:backgroundTint">@color/primary</item>
+    </style>
+    <style name="icon_theme"><item name="android:tint">@color/white</item></style>
+    <style name="icon_theme_opposite"><item name="android:tint">@color/black</item></style>
+    <style name="card_theme"><item name="backgroundTint">@color/black</item></style>
+    <!--    <style name="text_color_primary"><item name="android:textColor">@color/primary</item></style>-->
+<!--    <style name="text_color_secondary"><item name="android:textColor">@color/secondary</item></style>-->
 
     <style name="fab_style" parent="ShapeAppearance.MaterialComponents.SmallComponent">
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="darkModeSwitch" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/primary</item>
+        <item name="colorSwitchThumbNormal">@color/white</item>
+        <item name="android:colorForeground">#99FFFFFF</item>
     </style>
 
 </resources>

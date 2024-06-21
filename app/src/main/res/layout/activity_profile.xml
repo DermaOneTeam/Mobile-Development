@@ -33,13 +33,23 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
+    <ImageView
+        android:id="@+id/iv_arrow_back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/baseline_arrow_back_24"
+        app:tint="@color/tertiary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
     <TextView
         android:id="@+id/tv_profile"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Profile"
         android:textSize="30dp"
-        android:textColor="@color/white"
+        android:textColor="@color/tertiary"
         android:gravity="center"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,23 +57,11 @@
         android:layout_marginTop="13dp"/>
 
     <ImageView
-        android:id="@+id/iv_home"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:src="@drawable/baseline_home_24"
-        app:tint="@color/tertiary"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="@id/guidelineVertical"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="12dp"
-        android:layout_marginLeft="100dp"/>
-
-    <ImageView
         android:id="@+id/iv_profile_picture"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="@drawable/placeholder_person_24"
-        app:tint="@color/white"
+        style="@style/icon_theme"
         app:layout_constraintTop_toBottomOf="@id/profile_view_2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -75,7 +73,7 @@
         android:layout_height="wrap_content"
         android:text="Name placeholder"
         android:textSize="20dp"
-        android:textColor="@color/white"
+        style="@style/text_color"
         android:textStyle="bold"
         android:gravity="center"
         app:layout_constraintTop_toBottomOf="@id/iv_profile_picture"
@@ -87,7 +85,7 @@
         android:layout_height="wrap_content"
         android:text="placeholder@gmail.com"
         android:textSize="15dp"
-        android:textColor="@color/white"
+        style="@style/text_color"
         android:gravity="center"
         app:layout_constraintTop_toBottomOf="@id/tv_profile_name"
         android:layout_marginTop="10dp"/>
@@ -103,13 +101,14 @@
             android:layout_width="35dp"
             android:layout_height="35dp"
             android:src="@drawable/baseline_edit_24"
+            style="@style/icon_theme_opposite"
             android:layout_marginHorizontal="30dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="Edit profile"
             android:textSize="20dp"
-            android:textColor="@color/black"
+            style="@style/text_color_opposite"
             android:textStyle="normal"
             android:gravity="center"/>
     </LinearLayout>
@@ -125,13 +124,14 @@
             android:layout_width="35dp"
             android:layout_height="35dp"
             android:src="@drawable/baseline_password_24"
+            style="@style/icon_theme_opposite"
             android:layout_marginHorizontal="30dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="Change password"
             android:textSize="20dp"
-            android:textColor="@color/black"
+            style="@style/text_color_opposite"
             android:textStyle="normal"
             android:gravity="center"/>
     </LinearLayout>
@@ -147,18 +147,20 @@
             android:layout_width="35dp"
             android:layout_height="35dp"
             android:src="@drawable/baseline_settings_24"
+            style="@style/icon_theme_opposite"
             android:layout_marginHorizontal="30dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="Settings"
             android:textSize="20dp"
-            android:textColor="@color/black"
+            style="@style/text_color_opposite"
             android:textStyle="normal"
             android:gravity="center"/>
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/linearLayout_aboutUs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -166,25 +168,24 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginBottom="40dp">
-
-    <ImageView
-        android:id="@+id/iv_about_us"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:src="@drawable/baseline_about_us_24"
-        app:tint="@color/primary"
-        app:layout_constraintStart_toStartOf="parent"/>
-    <TextView
-        android:id="@+id/tv_about_us"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:text="About Us"
-        android:textSize="20dp"
-        android:textColor="@color/primary"
-        android:textStyle="bold"
-        android:gravity="center"
-        app:layout_constraintStart_toEndOf="@id/iv_about_us"
-        android:layout_marginLeft="7dp"/>
+        <ImageView
+            android:id="@+id/iv_about_us"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/baseline_about_us_24"
+            app:tint="@color/primary"
+            app:layout_constraintStart_toStartOf="parent"/>
+        <TextView
+            android:id="@+id/tv_about_us"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="About Us"
+            android:textSize="20dp"
+            android:textColor="@color/primary"
+            android:textStyle="bold"
+            android:gravity="center"
+            app:layout_constraintStart_toEndOf="@id/iv_about_us"
+            android:layout_marginLeft="7dp"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

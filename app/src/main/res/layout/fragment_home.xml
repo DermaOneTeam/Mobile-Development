@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".view.fragment.home.HomeFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <ImageView
@@ -16,6 +16,7 @@
             android:layout_height="50dp"
             android:layout_width="50dp"
             android:src="@drawable/placeholder_person_24"
+            style="@style/icon_theme_opposite"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"/>
 
@@ -38,9 +39,9 @@
                     android:id="@+id/tv_hello"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Hello Muhammad!"
+                    android:text="Hello!"
                     android:textSize="30dp"
-                    android:textColor="@color/white"
+                    style="@style/text_color"
                     android:layout_marginTop="15dp"
                     android:layout_marginLeft="30dp"/>
 
@@ -50,7 +51,7 @@
                     android:layout_height="wrap_content"
                     android:text="Scan your skin below for us to clasify!"
                     android:textSize="20dp"
-                    android:textColor="@color/white"
+                    style="@style/text_color"
                     android:paddingHorizontal="30dp"
                     android:layout_marginTop="20dp"/>
             </LinearLayout>
@@ -67,13 +68,17 @@
             android:layout_marginBottom="20dp"
             android:layout_marginTop="10dp"/>
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rv_history"
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            tools:listitem="@layout/history_list"
-            android:paddingBottom="80dp"/>
+            android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_history"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:listitem="@layout/history_list"
+                android:paddingBottom="60dp"/>
+        </ScrollView>
 
     </LinearLayout>
 
-</FrameLayout>
+</LinearLayout>
